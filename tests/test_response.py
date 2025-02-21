@@ -14,6 +14,7 @@ class MockObject:
     field1: str = field(init=False)
     field2: bool = field(init=False)
     field3: int = field(init=False)
+    field4: dict = field(init=False)
 
 
 class MockObjectPlain:
